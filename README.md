@@ -14,8 +14,8 @@ A powerful CLI tool for comparing LLM performance across multiple providers simu
 - 🧠 **Model Selection**: Choose specific models from each provider
 - ⚡ **Parallel Querying**: Send prompts to all selected models simultaneously
 - 📊 **Performance Metrics**: Track token usage and response times
-- 📦 **Clean Interface**: Rich text UI with split-screen layout
-- 🔄 **Interactive Experience**: Dynamic response display
+- 📦 **Clean Interface**: Rich text UI with side-by-side comparison
+- 🔄 **Multi-View Responses**: View full responses individually or sequentially
 - 📝 **Question Library**: Comprehensive benchmark suite with questions from industry-standard tests:
   - Instruction Following (IFEval)
   - Big-Bench Hard (BBH)
@@ -30,8 +30,8 @@ A powerful CLI tool for comparing LLM performance across multiple providers simu
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llm-wars.git
-cd llm-wars
+git clone https://github.com/webdevtodayjason/LLM-Wars.git
+cd LLM-Wars
 
 # Install dependencies
 pip install -r requirements.txt
@@ -41,8 +41,8 @@ pip install -r requirements.txt
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llm-wars.git
-cd llm-wars
+git clone https://github.com/webdevtodayjason/LLM-Wars.git
+cd LLM-Wars
 
 # Create and activate conda environment
 conda env create -f environment.yml
@@ -96,49 +96,45 @@ python app.py
 
 ### Step-by-Step Guide
 
-1. **Select Providers**: Choose up to 4 providers from OpenAI, Anthropic, Google, and CodeGPT
-   ```
-   Select up to 4 providers:
-   1. openai
-   2. anthropic
-   3. google
-   4. codegpt
-   
-   Select provider by number, name, or type 'done' to continue: 1
-   ```
+1. **Select Providers**: Choose up to 4 LLM providers from the available options
+2. **Choose Models**: Select specific models for each provider 
+3. **Query Models**: Select from predefined benchmark questions or enter your own prompt
+4. **View Responses**: Compare side-by-side responses with performance metrics
+5. **Full Responses**: View complete responses for each model:
+   - View individual model responses
+   - View all responses sequentially
+   - Return to the comparison view at any time
 
-2. **Choose Models**: Select specific models for each provider
-   ```
-   Available models for openai:
-   1. gpt-4o
-   2. gpt-4-turbo
-   3. gpt-3.5-turbo
-   
-   Choose a model by number: 1
-   ```
+### Advanced Features
 
-3. **Select Query Type**: Choose between predefined benchmark questions or custom prompts
-   ```
-   Query type [predefined/custom/exit]: predefined
-   ```
+#### Predefined Question Categories
 
-4. **Choose Questions**: If using predefined questions, select a category and specific question
-   ```
-   Select a question category:
-   1. General Knowledge (3 questions)
-   2. Programming Tasks (3 questions)
-   ...
-   
-   Choose a category by number: 1
-   ```
+LLM Wars includes a comprehensive question library with categories designed to test different aspects of LLM capabilities:
 
-5. **View Results**: Compare responses from all models in the split-screen interface
-   - See token counts, response times, and full responses side-by-side
-   - Continue with more questions or exit the application
+- **General Knowledge**: Basic factual knowledge
+- **Programming Tasks**: Code generation and explanation
+- **Creative Writing**: Creativity and text generation
+- **Logic & Reasoning**: Problem-solving capabilities
+- **Instruction Following (IFEval)**: Following specific instructions
+- **Big-Bench Hard (BBH)**: Complex reasoning tasks
+- **Mathematical Reasoning (MATH)**: Mathematical problem-solving
+- **Grade School Questions (GPQA)**: Simple educational questions
+- **Massive Multitask Language Understanding (MMLU)**: Specialized knowledge
+- **Multi-Turn User Simulation (MUSR)**: Conversational capabilities
+
+#### Performance Metrics
+
+For each model response, LLM Wars provides:
+
+- **Completion Time**: How long the model took to generate the response
+- **Token Count (Input)**: Number of tokens in the prompt
+- **Token Count (Output)**: Number of tokens in the response
 
 ## Roadmap
 
 - [x] Add a file with predefined questions to test
+- [x] Create side-by-side comparison interface
+- [x] Add multi-view response capability
 - [ ] Export results to CSV/JSON for analysis
 - [ ] Add scoring and benchmarking capabilities
 - [ ] Support for custom provider integrations
@@ -153,6 +149,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+## About the Author
+
+Created by [Jason Brashear](https://github.com/webdevtodayjason/)
 
 ## License
 
