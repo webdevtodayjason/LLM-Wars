@@ -1,0 +1,254 @@
+{
+  "categories": {
+    "general": {
+      "name": "General Knowledge",
+      "questions": [
+        {
+          "id": "gen-1",
+          "text": "What are the three laws of robotics?",
+          "difficulty": "easy"
+        },
+        {
+          "id": "gen-2",
+          "text": "Explain quantum computing to a 10-year-old.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "gen-3",
+          "text": "What would happen if the moon disappeared suddenly?",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "coding": {
+      "name": "Programming Tasks",
+      "questions": [
+        {
+          "id": "code-1",
+          "text": "Write a Python function to check if a string is a palindrome.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "code-2",
+          "text": "Implement a binary search algorithm in JavaScript.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "code-3",
+          "text": "Explain the differences between TCP and UDP protocols.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "creative": {
+      "name": "Creative Writing",
+      "questions": [
+        {
+          "id": "creative-1",
+          "text": "Write a short poem about artificial intelligence.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "creative-2",
+          "text": "Tell me a short story about a time traveler who can only travel 5 minutes into the past.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "creative-3",
+          "text": "Create a dialogue between a human and an AI discussing the meaning of consciousness.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "reasoning": {
+      "name": "Logic & Reasoning",
+      "questions": [
+        {
+          "id": "reason-1",
+          "text": "You have 8 balls identical in appearance, but 1 is slightly heavier than the rest. Using a balance scale, how can you identify the heavier ball with just 2 weighings?",
+          "difficulty": "hard"
+        },
+        {
+          "id": "reason-2",
+          "text": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+          "difficulty": "medium"
+        },
+        {
+          "id": "reason-3",
+          "text": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "benchmarks": {
+      "name": "Basic Benchmark Prompts",
+      "questions": [
+        {
+          "id": "bench-1",
+          "text": "Respond with exactly one word: What color is the sky on a clear day?",
+          "difficulty": "easy" 
+        },
+        {
+          "id": "bench-2",
+          "text": "List the first 10 prime numbers, one per line.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bench-3",
+          "text": "Translate the following English text to French, Spanish, and German: 'Artificial intelligence is transforming our world.'",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "ifeval": {
+      "name": "Instruction Following (IFEval)",
+      "questions": [
+        {
+          "id": "if-1",
+          "text": "Respond to this message without using the letter 'e'.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "if-2",
+          "text": "Respond with a paragraph where each word starts with the letters of 'ARTIFICIAL' in sequence. Start over with 'A' when you run out of letters.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "if-3",
+          "text": "Translate this sentence to French. Then translate that French sentence to Spanish. Then translate that Spanish sentence to German: 'The quick brown fox jumps over the lazy dog.'",
+          "difficulty": "medium"
+        },
+        {
+          "id": "if-4",
+          "text": "Count from 1 to 10. After each number, include a fun fact about that number, but limit each fact to exactly 10 words.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "bbh": {
+      "name": "Big-Bench Hard (BBH)",
+      "questions": [
+        {
+          "id": "bbh-1",
+          "text": "Find the missing pattern: 2, 5, 10, 17, 26, 37, ?",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bbh-2",
+          "text": "If a stick is cut into 3 pieces and the lengths are in the ratio 2:3:5, and the longest piece is 15 inches, how long was the original stick?",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bbh-3",
+          "text": "Answer this logical reasoning problem: All bears in Russia are brown. Some brown bears live in forests. Thus, some bears in Russia live in forests. Is this conclusion logically valid? Explain your reasoning step by step.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "bbh-4",
+          "text": "A store sells chocolate bars individually and in boxes. Individual bars cost $1.50 each. A box of 5 bars costs $6.00. Bob bought 15 chocolate bars in total and paid $21.00. How many boxes did he buy?",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "math": {
+      "name": "Mathematical Reasoning (MATH)",
+      "questions": [
+        {
+          "id": "math-1",
+          "text": "Calculate the integral: ∫(3x² + 2x - 5)dx",
+          "difficulty": "medium"
+        },
+        {
+          "id": "math-2",
+          "text": "Solve the system of equations: 3x + 4y = 10 and 5x - 2y = 3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "math-3",
+          "text": "A circle is inscribed in an equilateral triangle with side length 12 cm. Find the radius of the circle.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "math-4",
+          "text": "The sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ... is equal to what value?",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "gpqa": {
+      "name": "Grade School Questions (GPQA)",
+      "questions": [
+        {
+          "id": "gpqa-1",
+          "text": "Why does the moon appear to change shape throughout the month?",
+          "difficulty": "easy"
+        },
+        {
+          "id": "gpqa-2",
+          "text": "How does photosynthesis work, and why is it important for plants and animals?",
+          "difficulty": "medium"
+        },
+        {
+          "id": "gpqa-3",
+          "text": "What causes the seasons on Earth? Explain in simple terms a child could understand.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "gpqa-4",
+          "text": "Why does salt dissolve in water but not in oil? Explain the science behind this.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "mmlu": {
+      "name": "Massive Multitask Language Understanding (MMLU)",
+      "questions": [
+        {
+          "id": "mmlu-1",
+          "text": "What is the primary function of the endoplasmic reticulum in a eukaryotic cell?",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mmlu-2",
+          "text": "In quantum mechanics, what does Heisenberg's Uncertainty Principle state?",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mmlu-3",
+          "text": "Explain the key differences between the common law and civil law legal systems.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mmlu-4",
+          "text": "What is the significance of the Bretton Woods Conference of 1944 in international economics?",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "multiturn": {
+      "name": "Multi-Turn User Simulation (MUSR)",
+      "questions": [
+        {
+          "id": "musr-1",
+          "text": "I want to learn how to make sourdough bread at home. Let's discuss step by step what I need to do, starting with creating a starter.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "musr-2",
+          "text": "I'm planning a trip to Japan for 10 days. Help me create an itinerary, considering I want to see both urban areas and natural landscapes. Start by asking me about my preferences and travel style.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "musr-3",
+          "text": "I want to start investing in stocks but I have no experience. How should I begin? Walk me through the process as if you were my financial advisor.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "musr-4",
+          "text": "I'm struggling with procrastination while working from home. Let's have a coaching conversation where you help me identify the root causes and develop strategies to overcome this habit.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  }
+}
